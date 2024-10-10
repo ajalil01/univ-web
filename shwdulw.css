@@ -1,0 +1,28 @@
+body{
+    background-color: #384B70;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    color: #FCFAEE;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+a{
+    color: #FCFAEE;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 1.4rem;
+}
+.shedule{
+    text-decoration: underline;
+}
+img {
+    max-width: 80%;
+    height: auto;
+    margin-left: 11%;
+    margin-bottom: 5%;
+}
