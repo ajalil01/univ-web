@@ -1,8 +1,10 @@
 body{
     background-color: #384B70;
-
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-ul{
+.nav-div{
     display: flex;
     flex-direction: row;
     color: #FCFAEE;
@@ -10,6 +12,15 @@ ul{
     align-items: center;
     justify-content: space-around;
     list-style: none;
+    margin: 0%;
+}
+header{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding: 0;
+    margin: 0;
 }
 a{
     color: #FCFAEE;
@@ -19,4 +30,51 @@ a{
 }
 .main{
     text-decoration: underline;
+}
+.section-m{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #FCFAEE;
+    margin: 10% auto;
+    width: 80%;
+}
+img{
+    max-width: 80%;
+    margin-bottom: 5%;
+}
+@media(max-width:592px){
+    .nav-div{
+        color: #FCFAEE;
+        height: 100px;
+        justify-content: space-between;
+        list-style: none;
+        width: 80%;
+        margin: 5% auto;
+    }
+    a{
+        font-weight:bold;
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:592px){
+    a{
+        font-weight:bold;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:430px){
+    .nav-div{
+        color: #FCFAEE;
+        height: 100px;
+        justify-content: space-between;
+        list-style: none;
+        width: 80%;
+        margin: 5% auto;
+    }
+    a{
+        font-weight:bold;
+        font-size: 0.7rem;
+    }
 }

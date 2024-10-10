@@ -1,7 +1,11 @@
 body{
     background-color: #384B70;
+    color: #FCFAEE;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-ul{
+.nav-div{
     display: flex;
     flex-direction: row;
     color: #FCFAEE;
@@ -9,6 +13,16 @@ ul{
     align-items: center;
     justify-content: space-around;
     list-style: none;
+    margin: 0%;
+
+}
+header{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding: 0;
+    margin: 0;
 }
 a{
     color: #FCFAEE;
@@ -18,4 +32,68 @@ a{
 }
 .modules{
     text-decoration: underline;
+}
+.big-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.small-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.module{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    justify-content: center;
+    text-align: center;
+}
+.module-name{
+    font-size: 1.8rem;
+}
+.prof-name{
+    font-size: 1.3rem;
+}
+.email-prof{
+    font-size: 1rem;
+    text-decoration: underline;
+}
+@media(max-width:592px){
+    .nav-div{
+        color: #FCFAEE;
+        height: 100px;
+        justify-content: space-between;
+        list-style: none;
+        width: 80%;
+        margin: 5% auto;
+    }
+    a{
+        font-weight:bold;
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:592px){
+    a{
+        font-weight:bold;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:430px){
+    .nav-div{
+        color: #FCFAEE;
+        height: 100px;
+        justify-content: space-between;
+        list-style: none;
+        width: 80%;
+        margin: 5% auto;
+    }
+    a{
+        font-weight:bold;
+        font-size: 0.7rem;
+    }
 }

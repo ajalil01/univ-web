@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-ul{
+.nav-div{
     display: flex;
     flex-direction: row;
     color: #FCFAEE;
@@ -11,6 +11,7 @@ ul{
     align-items: center;
     justify-content: space-around;
     list-style: none;
+    margin: 0%;
 
 }
 header{
@@ -35,10 +36,31 @@ img {
     height: auto;
     margin-left: 9%;
     margin-bottom: 5%;
+    margin-top: 10%;
+}
+@media(max-width:592px){
+    .nav-div{
+        color: #FCFAEE;
+        height: 100px;
+        justify-content: space-between;
+        list-style: none;
+        width: 80%;
+        margin: 5% auto;
+    }
+    a{
+        font-weight:bold;
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:592px){
+    a{
+        font-weight:bold;
+        font-size: 0.9rem;
+    }
 }
 
 @media(max-width:430px){
-    ul{
+    .nav-div{
         color: #FCFAEE;
         height: 100px;
         justify-content: space-between;

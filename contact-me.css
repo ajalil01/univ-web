@@ -1,8 +1,10 @@
 body{
     background-color: #384B70;
+    margin: 0;
+    padding: 0;
 
 }
-ul{
+.nav-div{
     display: flex;
     flex-direction: row;
     color: #FCFAEE;
@@ -10,6 +12,16 @@ ul{
     align-items: center;
     justify-content: space-around;
     list-style: none;
+    margin: 0%;
+
+}
+header{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding: 0;
+    margin: 0;
 }
 a{
     color: #FCFAEE;
@@ -19,4 +31,39 @@ a{
 }
 .contact-me{
     text-decoration: underline;
+}
+@media(max-width:592px){
+    .nav-div{
+        color: #FCFAEE;
+        height: 100px;
+        justify-content: space-between;
+        list-style: none;
+        width: 80%;
+        margin: 5% auto;
+    }
+    a{
+        font-weight:bold;
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:592px){
+    a{
+        font-weight:bold;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:430px){
+    .nav-div{
+        color: #FCFAEE;
+        height: 100px;
+        justify-content: space-between;
+        list-style: none;
+        width: 80%;
+        margin: 5% auto;
+    }
+    a{
+        font-weight:bold;
+        font-size: 0.7rem;
+    }
 }
