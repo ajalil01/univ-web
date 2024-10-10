@@ -37,7 +37,7 @@ img {
     margin-bottom: 5%;
 }
 
-@media(max-width:420px){
+@media(max-width:430px){
     ul{
         color: #FCFAEE;
         height: 100px;
