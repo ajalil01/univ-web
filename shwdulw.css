@@ -1,5 +1,7 @@
 body{
     background-color: #384B70;
+    margin: 0;
+    padding: 0;
 }
 ul{
     display: flex;
@@ -10,6 +12,14 @@ ul{
     justify-content: space-around;
     list-style: none;
 
+}
+header{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding: 0;
+    margin: 0;
 }
 a{
     color: #FCFAEE;
@@ -23,6 +33,21 @@ a{
 img {
     max-width: 80%;
     height: auto;
-    margin-left: 11%;
+    margin-left: 9%;
     margin-bottom: 5%;
+}
+
+@media(max-width:420px){
+    ul{
+        color: #FCFAEE;
+        height: 100px;
+        justify-content: space-between;
+        list-style: none;
+        width: 80%;
+        margin: 5% auto;
+    }
+    a{
+        font-weight:bold;
+        font-size: 0.7rem;
+    }
 }
