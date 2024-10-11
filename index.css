@@ -81,3 +81,8 @@ img{
         font-size: 1em;
     }
 }
+@media(max-width:367px){
+    a{
+        font-size: 0.5em;
+    }
+}

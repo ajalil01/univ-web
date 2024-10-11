@@ -67,3 +67,8 @@ a{
         font-size: 0.7rem;
     }
 }
+@media(max-width:367px){
+    a{
+        font-size: 0.5em;
+    }
+}
