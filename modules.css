@@ -5,6 +5,7 @@ body{
     padding: 0;
     text-align: center;
 }
+
 .nav-div{
     display: flex;
     flex-direction: row;
@@ -32,18 +33,21 @@ a{
 }
 .modules{
     text-decoration: underline;
+        text-shadow: 2px 2px 4px #000000;
 }
 .big-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 .small-div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 .module{
     display: flex;
@@ -51,16 +55,65 @@ a{
     margin: 5% auto;
     justify-content: center;
     text-align: center;
+    width :40%;
+    text-shadow: 2px 2px 4px #000000;
 }
 .module-name{
     font-size: 1.8rem;
+    text-shadow: 2px 2px 4px #000000;
 }
 .prof-name{
     font-size: 1.3rem;
+    text-shadow: 2px 2px 4px #000000;
 }
 .email-prof{
     font-size: 1rem;
     text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+}
+.main-chapter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 5% auto;
+    text-shadow: 2px 2px 4px #000000;
+}
+.chapter{
+    border: solid rgb(241, 241, 241) 2px ;
+    padding: 20px 40px;
+    border-bottom: 0px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.chapter-ls{
+    border: solid rgb(241, 241, 241) 2px ;
+    padding: 20px 40px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.chapter-ls:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 1px 5px 2px rgba(0, 0, 0, 0.45);
+}
+.chapter:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: solid rgb(241, 241, 241) 2px ;
+    box-shadow: 1px 5px 2px rgba(0, 0, 0, 0.45);
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 @media(max-width:592px){
     .nav-div{
@@ -94,6 +147,21 @@ a{
     }
     a{
         font-weight:bold;
+        font-size: 0.7rem;
+    }
+    .small-div{
+        flex-direction: column;
+    }
+    .email-prof{
+        margin-bottom: 5%;
+    }
+    .module-name{
+        font-size: 1.4rem;
+        }
+    .prof-name{
+        font-size: 1rem;
+    }
+    .email-prof{
         font-size: 0.7rem;
     }
 }
