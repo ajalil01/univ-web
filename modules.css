@@ -33,21 +33,18 @@ a{
 }
 .modules{
     text-decoration: underline;
-        text-shadow: 2px 2px 4px #000000;
 }
 .big-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    text-shadow: 2px 2px 4px #000000;
 }
 .small-div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
-    text-shadow: 2px 2px 4px #000000;
 }
 .module{
     display: flex;
@@ -56,7 +53,6 @@ a{
     justify-content: center;
     text-align: center;
     width :40%;
-    text-shadow: 2px 2px 4px #000000;
 }
 .module-name{
     font-size: 1.8rem;
@@ -163,5 +159,11 @@ h5{
     }
     .email-prof{
         font-size: 0.7rem;
+    }
+}
+
+@media(max-width:367px){
+    a{
+        font-size: 0.5em;
     }
 }
